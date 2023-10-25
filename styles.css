@@ -1,0 +1,23 @@
+body
+{
+    background: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1 
+{
+    color:goldenrod;
+    text-align: center;
+}
+.assignment
+{
+display: flex;
+padding: 10px;
+margin: 10px;
+background: purple;
+}
+.assignment img 
+{
+width: 200px;
+padding: 10px;
+}
