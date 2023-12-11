@@ -24,10 +24,10 @@ padding: 10px;
 
 a{
     text-decoration: none;
-    color:green;
+    color:#32ED3A;
 }
 
 .assignment img{
     padding: 10px;
-    border: 2px dashed midnightblue;
+    border: 2px dashed #408AF0;
 }
