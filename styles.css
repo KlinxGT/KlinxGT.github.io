@@ -21,3 +21,13 @@ background: purple;
 width: 200px;
 padding: 10px;
 }
+
+a{
+    text-decoration: none;
+    color:green
+}
+
+.assignment img{
+    padding: 10px;
+    border: 2px dashed midnightblue;
+}
