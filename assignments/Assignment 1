@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header><title>Assignment 1</title></header>
+    <!--CSCE 242 Xin Lin-->
+    <h1>Eurydice and Orpheus</h1>
+    <p>This is a ancient Greek Legend about Orpheus of Thrace
+        and his wife Eurydice. The version I will be referring to is Ovid's version
+        of the myth in <i>Metamorphoses</i>. This version employs a lot 
+        of poetic emphasis. 
+    </p>
+    <p>In the story Orpheus is the son of Apollo, and a talented singer. He fell 
+        in love with the beautiful Eurydice and they married happily. Eurydice
+        is bitten by a snake and dies; to see his lover Orpheus descends into 
+        the underworld and convinces Hades to let his wife come back to life with a 
+        sorrowful melody. Hades told him if he can lead his wife back to the surface without 
+        looking at her she will live again. 
+    </p>
+    <h3>Different Versions</h3>
+    <ul>
+        <li>Eurydice tripped and Orpheus turn to look at her.</li>
+        <li>Orpheus couldn't hear Eurydice and was scared he had been fooled</li>
+        <li>Orpheus turned around to reassure the scared Eurydice</li>
+    </ul>
+
+    <h5>A quote about Eurydice's forgiveness for Orpheus</h5>
+    <table> 
+        <tr>
+            <td>Eurydice, dying now</td>
+            <td> a second time,</td>
+        </tr>
+        <tr>
+            <td>uttered no complaint</td>
+            <td> against her husband.</td>
+        </tr>
+        <tr>
+            <td>What was there to complain of,</td>
+            <td> but that she had been loved.</td>
+        </tr>
+    </table>
+    <!--Love is so beautiful-->
+    <img src="images/love.jpg" alt = "painting"><img src="images/smile.png" alt ="smile">
+    <a href="https://en.wikipedia.org/wiki/Orpheus_and_Eurydice">Story</a>
+    <a href="https://rockboci.tumblr.com/post/645101430515105792">A liitle blog I found</a>
+</html>
