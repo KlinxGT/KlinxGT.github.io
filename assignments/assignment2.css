@@ -1,0 +1,62 @@
+body
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(images/water.jpg);
+
+}
+/*Structure*/
+#content
+{
+    padding:4px;
+    width: 80%;
+    margin: auto;
+    /*Center horizontally */
+    border-radius: 5px;
+    color:lightblue;
+    background: #3B5694;
+}
+
+#Stuff
+{
+    background: #3B5694;
+}
+#Stuff table
+{
+    padding:4px;
+    border-style: groove;
+    margin-left:10%;
+    color:aliceblue;
+    background-color: #002B50 ;
+}
+#Stuff h3
+{
+
+    padding-left: 10%;
+    color:aliceblue;
+}
+#Stuff img
+{
+    padding:2px;
+    border-style: ridge;
+    
+}
+h1
+{
+    color:#00136E;
+}
+p
+{
+    width: 45%;;
+}
+#move a
+{
+    color:lightskyblue;
+    text-decoration: none;
+    padding:2px;
+}
+
+#move a:hover
+{
+    color:darkblue;
+}
+

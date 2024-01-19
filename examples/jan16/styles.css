@@ -1,0 +1,46 @@
+body
+{
+    background: url(images/stare.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Structure*/
+#content
+{
+    background: lightcyan;
+    padding:4px;
+    width: 80%;
+    margin: auto;
+    /*Center horizontally */
+    border-radius: 5px;
+    
+}
+/*Navigation*/
+
+#main-nav a
+{
+
+    text-decoration: none;
+    background: goldenrod;
+    color: maroon;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 2px;
+    /* Not uniform?*/
+}
+
+#main-nav a:hover
+{
+    background:salmon;
+}
+
+/* Typography */
+
+h1 
+{
+    color: darkblue;
+}
+
+.special
+{
+    color:black
+}
