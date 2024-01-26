@@ -1,20 +1,55 @@
+/*Structure*/
 body
 {
     font-family: 'Times New Roman', Times, serif;
     color:#789461;
     background:#294B29 ;
 
-    
 }
 
 #assmint
 {
-   
-
+    text-align: center;
+}
+#title
+{
+    width:fit-content;
+    margin:auto;
 }
 
+
+ol
+{
+    padding:0%;
+    list-style-type: none;
+}
+
+.block
+{
+    background-color:#446244;
+    display:inline-block;
+    width: 40%;
+    margin-bottom: 2%;
+    
+}
+/*Navigational*/
 #list a
 {
     text-decoration: none;
-    color:  #DBE7C9
+    color:  #DBE7C9;
+}
+
+@media(min-width:900px)
+{
+
+   li{
+    display: inline-block;
+    width:30%;
+    margin:5px;
+   }
+   .block{
+    width:100%;
+
+   }
+
 }
