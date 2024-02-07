@@ -66,6 +66,7 @@ body{
 #main-nav li, .col1of2, .col1of3, .col1of4 { 
     flex:1;
 }
+/*Ratio of flex box*/
 
 .col2of3, .col2of4{
     flex: 2;
