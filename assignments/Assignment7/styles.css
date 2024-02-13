@@ -7,3 +7,16 @@ body{
 section{
     background-color: black;
 }
+
+div{
+    border: 2px;
+    background-color: white;
+    width:200px;
+    height:200px;
+    margin:auto;
+}
+
+.slider{
+    height:fit-content;
+    width:80%;
+}
