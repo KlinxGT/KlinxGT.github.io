@@ -23,7 +23,7 @@ const addCircle =()=> {
     playground.append(ball);
     ball.classList.add("Circle");
     ball.style.background = color;
-};
+}
 
 
 

@@ -64,7 +64,7 @@ input{
 
 @media(min-width: 900px){
     
-    li:last-child::before{
+    #options li:last-child::before{
         content:" | ";
     }
     
