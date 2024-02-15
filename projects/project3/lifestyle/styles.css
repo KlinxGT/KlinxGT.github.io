@@ -5,11 +5,11 @@ html{
 body
 {
     font-family:'Times New Roman', Times, serif;
-    background: #739072;
+    background: #FBF9F1;
     margin:0%;
     padding:0%;
     height:100%;
-    color:#FBF9F1;
+    color:#4F6F52;
 }
 /*Structure*/
 #main-head
@@ -24,7 +24,7 @@ body
 
 #main-head h1
 {
-   
+   color: #FBF9F1;
     font-size: 3em;
     display: inline-block;
     text-align: center;
@@ -58,13 +58,6 @@ body
     text-decoration: underline;
 }
 
-#right{
-    float: right;
-}
-
-#left{
-    float: left;
-}
 
 div{
     margin: 3%;
@@ -74,3 +67,61 @@ h2{
 
     margin-left: 3%;
 }
+
+/*body*/
+#top{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin:auto;
+}
+
+#tchart{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#do, #dont{
+    flex:1;
+    margin:0;
+    text-align: center;
+    
+}
+
+ul{
+    width:60%;
+    margin: auto;
+}
+
+/*Footer*/
+footer{
+    
+    margin: auto;
+    padding:0%;
+    list-style: none;
+    background-color:#547c57;
+    
+}
+
+footer ul{
+    padding:3%;
+    display: flex;
+    text-decoration: none; 
+    width: 100%;
+}
+
+footer li{
+    flex: 1;
+    display: inline-block;
+    text-align: center;
+}
+footer a{
+    color:#FBF9F1;
+    text-decoration: none;
+}
+
