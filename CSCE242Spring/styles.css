@@ -33,7 +33,7 @@ ol
     
 }
 /*Navigational*/
-#list a
+#list a, #list2 a
 {
     text-decoration: none;
     color:  #DBE7C9;
