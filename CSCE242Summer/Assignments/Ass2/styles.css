@@ -8,7 +8,8 @@ body {
 
 #content { 
     border-style: solid;
-    width:100%;
+    width:90%;
+    margin: auto;
 }
 
 
@@ -23,8 +24,8 @@ li {
 
 .block {
     display: flex;
-    margin: 5px;
-    width: 100%;
+    margin: 10px;
+    width: 95%;
     height:200px;
 }
 
@@ -32,6 +33,7 @@ li {
     margin: 0px 10px 0px;
     overflow: auto;
     flex:2;
+    width: 100%;
 }
 
 #nav ul {
@@ -92,6 +94,7 @@ a:hover {
 .ham {
     border-style: dashed;
     flex: 1;
+
 }
 .ham img{
    width:100%;
