@@ -1,0 +1,99 @@
+/* Structure */
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ede683;
+    
+}
+
+#content { 
+    border-style: solid;
+    width:100%;
+}
+
+
+li {
+    list-style: none;
+}
+
+#head {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.block {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    height:200px;
+}
+
+.block p {
+    margin: 0px 10px 0px;
+    overflow: auto;
+    flex:2;
+}
+
+#nav ul {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#nav a:not(:last-child) {
+    border-right: solid;
+}
+
+#nav li {
+    flex: 1;
+
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border-style:solid ;
+    border-color: darkslategray;
+}
+
+table {
+    width: 100%;
+}
+
+/*Typograph*/
+#head h1 {
+    background-color: #f26744;
+    width:20%;
+    margin: auto;
+    color:white;
+    text-shadow: rgb(250, 255, 95) 0px 0px 6px;
+    border-radius: 10px;
+}
+
+#head h5 {
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+a, a:visited{
+    color:black;
+    text-decoration: none;
+    width:25%;
+}
+
+a:hover {
+    color:#ede683;
+    background-color: black;
+}
+
+.ham {
+    border-style: dashed;
+    flex: 1;
+}
+.ham img{
+   width:100%;
+   height:100%;
+}
