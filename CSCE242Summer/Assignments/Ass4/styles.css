@@ -1,0 +1,176 @@
+/* Structure */
+html {
+    
+}
+
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-nav, #top-nav a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#top-nav {
+    display:flex;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#top-nav li {
+    width:fit-content;
+}
+
+#content {
+    
+    display: flex;
+}
+
+#side-bar {
+    flex:1;
+}
+
+#ete {
+    flex:5;
+    margin-top: 15px;
+}
+
+#bot-banner {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bot-banner h2, #bot-banner a {
+    color:black;
+    text-decoration: none;
+}
+
+#bot-banner li {
+    font-size: 15px;
+    margin: 0px 4px;
+}
+
+#bot-banner ol {
+    list-style: none;
+    display: flex;
+    padding:10px;
+    
+}
+
+.cell {
+    display: inline-block;
+}
+
+.cell ol, .cell a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    margin:0;
+}
+
+.directory, #bot-block h3 {
+    background-color: darkred;
+    margin:0;
+}
+
+#bot-block {
+    background-color: darkred;
+}
+
+#bot-block h3 {
+    border-bottom: 2px solid white ;
+    width:93%;
+    margin:auto;
+}
+
+
+#bot-block h3, .directory ol {
+    color:white;
+    padding: 15px;
+}
+
+/*Typography*/
+
+#banner {
+    background-color: black;
+}
+
+#search {
+    color:lightgray;
+    border:2px solid white;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px;
+    width:200px;
+}
+
+#search h3 {
+    margin:0;
+}
+
+#SOM {
+    margin:0;
+    background-color: darkred;
+    color:white;
+    padding:10px;
+}
+
+#side-bar{
+    width:fit-content;
+    margin-top: 15px;
+}
+
+.bar {
+    margin:2px;
+    flex:1;
+    width:200px;
+    border-top: 1px solid black;
+}
+.bar a{
+    color:black;
+    text-decoration: none;
+   
+}
+
+#default {
+    width: fit-content;
+    margin: auto;
+}
+
+#ete h2 {
+    color:darkred;
+}
+
+.block {
+    border:1px solid gray;
+    border-left: 4px solid maroon;
+    padding:5px;
+    margin-bottom: 8px;
+}
+/*Larger Resolution*/
+
+@media only screen and (min-width: 600px) {
+
+    #with-side {
+        display: flex;
+    }
+    #bot-block {
+        display:flex;
+    }
+    .directory {
+        margin:0px 5px;
+    }
+    
+}
