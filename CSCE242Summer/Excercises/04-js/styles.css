@@ -1,0 +1,29 @@
+/* Structure */
+body {
+   
+    
+}
+
+li {
+    list-style: none;
+}
+
+/*Typography*/
+
+a:visited, a:hover {
+    color:black;
+}
+
+.class {
+    color:green;
+    background-color: blue;
+}
+
+.hidden {
+    display:none;
+}
+/*Larger Resolution*/
+
+@media only screen and (min-width: 600px) {
+    
+}
