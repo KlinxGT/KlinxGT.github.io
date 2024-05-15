@@ -96,6 +96,10 @@ a:visited, a:hover {
         height: 350px;
     }
 
+    .pcell {
+        height:300px;   
+    }
+
     #block li {
         width:30%;
         margin:auto;
