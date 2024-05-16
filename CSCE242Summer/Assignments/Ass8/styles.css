@@ -1,0 +1,139 @@
+/*CSCE Xin Lin  */
+/* Structure */
+:root {
+    --background-color: #ede683;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    
+}
+
+li {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    width:60%;
+    margin: auto;
+    height: 350px;
+    border-style:solid;
+    text-align: center;
+}
+
+
+/*Typography*/
+
+header {
+    text-align: center;
+    width:100%;
+}
+
+#nav{
+    width: 30%;
+    margin: auto;
+}
+
+#nav p:hover {
+    cursor: pointer;
+}
+
+#options {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:var(--background-color);
+    width:100%;
+    padding:0;
+    margin:auto;
+}
+
+#options li {
+    margin-bottom: 5px;
+    background-color: rgb(119, 198, 119);
+}
+
+#options li:hover {
+    color:black;
+    cursor:pointer;
+}
+
+
+a:visited, a:hover {
+    color:black;
+}
+
+/*Slider*/
+
+#color-slide {
+    color:white;
+}
+
+
+#slider {
+    width: 80%;
+    margin: 15px auto;
+    padding:15px;
+    border-style:solid; 
+    background-color: rgb(189, 98, 98);
+}
+
+#slide {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background-color:lightgray ;
+}
+
+#slide::-moz-range-thumb {
+    width:20px;
+    height:20px;
+    background-color: maroon;
+}
+
+#message {
+    color:white;
+    width: 100%;
+    line-height:200px;
+    text-align: center;
+}
+
+/*Picture*/
+
+#buttons {
+    width: fit-content;
+    margin: auto;
+}
+
+#img {
+    display:block;
+    margin: 10% auto;
+}
+
+/*Larger Resolution*/
+
+@media only screen and (min-width: 700px) {
+    #options li:first-child::after {
+        content:' | ';
+    }
+
+    #options {
+        display: flex;
+        margin: auto;
+        width: fit-content;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #options li {
+        min-width:fit-content;
+    }
+
+}

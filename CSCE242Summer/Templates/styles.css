@@ -1,6 +1,12 @@
 /*CSCE Xin Lin  */
 /* Structure */
+:root {
+    --background-color: #ede683;
+}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
     
 }
 
