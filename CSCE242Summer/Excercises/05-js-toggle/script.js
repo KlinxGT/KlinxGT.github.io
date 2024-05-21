@@ -54,4 +54,5 @@ document.getElementById("txt-color").onkeyup = e => {
         messageP.innerHTML = "You are nothing";
     }
     
+    
 }
