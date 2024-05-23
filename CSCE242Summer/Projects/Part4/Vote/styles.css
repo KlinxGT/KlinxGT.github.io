@@ -1,0 +1,168 @@
+/*Generic*/
+:root{
+    --nav-color:#efd8b7;
+    --nav-bar:#57300F;
+    --support-color: rgb(255, 240, 222);
+    --chocolate:#443325 ;
+}
+
+body {
+    width: 85%;
+    margin: 10px auto;
+    min-height: fit-content;
+    color:var(--chocolate);
+    background-color: var(--nav-color);
+}
+
+#logo {
+    height: fit-content;
+}
+
+#logopic {
+    margin: auto;
+    display: block;
+}
+
+
+#hamburger {
+    height: fit-content;
+    background-color: var(--chocolate);
+    padding:1px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.bar {
+    height: 3px;
+    margin: 10px;
+    background-color: var(--nav-color);
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#nav-bar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar, #logo {
+    width: 98%;
+    margin: auto;
+    background-color: var(--nav-color);
+}
+
+.nav-item {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-bar);
+    color: var(--nav-color)
+}
+
+.nav-item p {
+    margin: auto;
+}
+
+#content {
+    height: fit-content;
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+
+/*Vote*/
+
+.choice {
+    border-style: solid;
+    padding:5px;
+    margin: 5px;
+    height: fit-content;
+}
+
+
+.choice img {
+    border-style: groove;
+}
+
+.choice button {
+    background-color: var(--chocolate);
+    color:var(--support-color);
+}
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color:saddlebrown;
+}
+/*Larger Resolution*/
+@media only screen and (min-width: 800px) {
+    body {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+    header {
+        flex:1;
+        height: 100%;
+        position: sticky;
+        top:0px;
+    }
+
+    #nav-bar {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    #nav-bar ol {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+    }
+
+    #logo {
+        margin: auto;
+        width: 90%;
+    }
+
+    .nav-item {
+        width:90%;
+        margin: 45px auto;
+        flex:1;
+    }
+
+    #content {
+        flex: 5;
+    }
+    
+    #contest {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+    }
+
+    .choice {
+        width: min-content;
+        margin: 5px auto;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+}

@@ -1,0 +1,185 @@
+/*Generic*/
+:root{
+    --nav-color:#efd8b7;
+    --nav-bar:#57300F;
+    --support-color: rgb(255, 240, 222);
+    --chocolate:#443325 ;
+}
+
+body {
+    width: 85%;
+    margin: 10px auto;
+    min-height: fit-content;
+    color:var(--chocolate);
+    background-color: var(--nav-color);
+}
+
+#logo {
+    height: fit-content;
+}
+
+#logopic {
+    margin: auto;
+    display: block;
+}
+
+#hamburger {
+    height: fit-content;
+    background-color: var(--chocolate);
+    padding:1px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.bar {
+    height: 3px;
+    margin: 10px;
+    background-color: var(--nav-color);
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#nav-bar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar, #logo {
+    width: 98%;
+    margin: auto;
+    background-color: var(--nav-color);
+}
+
+.nav-item {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-bar);
+    color: var(--nav-color)
+}
+
+.nav-item p {
+    margin: auto;
+}
+
+#content {
+    height: fit-content;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#img {
+    min-height: 50vh;
+    height: fit-content;
+    border: solid;
+    width: fit-content;
+    margin:auto;
+}
+
+#img h2 {
+    margin: 50px;
+    text-align: center;
+}
+
+#more {
+    width: 90%;
+ 
+    margin: 5px auto;
+    height: 32vh;
+    display: flex;
+    background-color: #443325;
+    color: var(--support-color) ;
+}
+
+#more section {
+    flex:1;
+    padding:5px;
+}
+
+#more label {
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+#description, #tags {
+    height: 35%;
+    width: 80%;
+    background-color: var(--support-color);
+    border-style: groove;
+}
+
+#caption {
+    height: 80%;
+    width: 80%;
+    background-color: var(--support-color);
+}
+a, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+#poster {
+    width:90%;
+    height: 40px;
+    display: block;
+    margin: 5px auto;
+    background-color: var(--nav-bar);
+    color: var(--nav-color);
+}
+
+/*Larger Resolution*/
+@media only screen and (min-width: 800px) {
+    body {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        background-color: var(--nav-color);
+    }
+
+    header {
+        flex:1;
+        height: 100%;
+        position: sticky;
+        top:0px;
+    }
+
+    #nav-bar {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    #nav-bar ol {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+    }
+
+    #logo {
+        margin: auto;
+        width: 90%;
+    }
+
+    .nav-item {
+        width:90%;
+        margin: 45px auto;
+        flex:1;
+    }
+
+    #content {
+        flex: 5;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+}
