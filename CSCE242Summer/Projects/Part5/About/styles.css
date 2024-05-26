@@ -23,6 +23,18 @@ body {
     display: block;
 }
 
+#nav-bar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar, #logo {
+    width: 98%;
+    margin: auto;
+    background-color: var(--nav-color);
+}
+
 #hamburger {
     height: fit-content;
     background-color: var(--chocolate);
@@ -43,18 +55,6 @@ body {
     display: none;
 }
 
-#nav-bar ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#nav-bar, #logo {
-    width: 98%;
-    margin: auto;
-    background-color: var(--nav-color);
-}
-
 .nav-item {
     height: 30px;
     display: flex;
@@ -67,93 +67,44 @@ body {
     margin: auto;
 }
 
+#content {
+    text-align: center;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 a, a:visited {
     text-decoration: none;
     color:black;
 }
-/*Home*/
 
-#banner {
-    display: flex;
-    padding:25px 0px;
-} 
-
-#banner h1 {
-    flex:1;
-    margin: 0;
+p {
+    margin: 10px 5px;
+    font-size: medium;
 }
 
-#banner input{
-    flex:1;
-    text-align: right;
-}
 
-#labSearch {
-    font-size: large;
-    font-weight: bold;
-}
 
-#search {
-    height: 20px;
-    width: 30%;
-}
-
-.post {
-    border-style: solid;
-    padding: 5px;
-    margin: 5px auto;
-    width:min-content;
-
-}
-
-.post img {
-    display: block;
-    margin: auto;
-    border-style: double;
-}
-
-.more {
-    width: 90%;
-    margin: 5px auto;
-    height: fit-content;
-}
-
-.like-count {
-    display: flex;
-    width: 50%;
-    margin: 5px auto;
-    text-align: center;
-    padding: 5px;
-}
-
-.likes, .dislikes, .like-count h2 {
-    flex: 1;
-    margin: 6px;
-}
-
-.likes, .dislikes {
-    background-color: var(--chocolate);
-    color: var(--support-color);
-}
 /*Larger Resolution*/
-
 @media only screen and (min-width: 800px) {
     body {
         display: flex;
-        margin: auto;
+        margin: 0;
         width: 100%;
     }
 
     header {
         flex:1;
+        height: 100%;
         position: sticky;
         top:0px;
-        height: 100%;
     }
 
     #nav-bar {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         justify-content: space-between;
     }
 
@@ -177,27 +128,18 @@ a, a:visited {
     #content {
         flex: 5;
     }
-
-     #images {
-        width: 98%;
-        margin: auto;
+    
+    #me {
+        float: left;
     }
 
-    #banner {
-        width: 95%;
-        margin: auto;
+    #me img {
+        border-style: solid;
+        margin-right: 15px ;
     }
-
-    #images {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .post {
-        width: min-content;
-        margin: 5px;
-        height: fit-content;
+    #about p {
+        font-size: larger;
+        text-align: left;
     }
 
     #hamburger {

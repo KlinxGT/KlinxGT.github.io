@@ -67,76 +67,29 @@ body {
     margin: auto;
 }
 
+#content {
+    height: fit-content;
+    text-align: center;
+}
+
 a, a:visited {
     text-decoration: none;
     color:black;
 }
-/*Home*/
 
-#banner {
-    display: flex;
-    padding:25px 0px;
-} 
-
-#banner h1 {
-    flex:1;
-    margin: 0;
-}
-
-#banner input{
-    flex:1;
-    text-align: right;
-}
-
-#labSearch {
-    font-size: large;
-    font-weight: bold;
-}
-
-#search {
-    height: 20px;
-    width: 30%;
-}
-
-.post {
+.famers {
     border-style: solid;
-    padding: 5px;
-    margin: 5px auto;
-    width:min-content;
-
-}
-
-.post img {
-    display: block;
-    margin: auto;
-    border-style: double;
-}
-
-.more {
-    width: 90%;
+    width: fit-content;
     margin: 5px auto;
     height: fit-content;
 }
 
-.like-count {
-    display: flex;
-    width: 50%;
-    margin: 5px auto;
-    text-align: center;
-    padding: 5px;
+.famers img {
+    border-style: dotted;
 }
 
-.likes, .dislikes, .like-count h2 {
-    flex: 1;
-    margin: 6px;
-}
 
-.likes, .dislikes {
-    background-color: var(--chocolate);
-    color: var(--support-color);
-}
 /*Larger Resolution*/
-
 @media only screen and (min-width: 800px) {
     body {
         display: flex;
@@ -178,28 +131,16 @@ a, a:visited {
         flex: 5;
     }
 
-     #images {
-        width: 98%;
-        margin: auto;
-    }
-
-    #banner {
-        width: 95%;
-        margin: auto;
-    }
-
-    #images {
+    #hall {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 
-    .post {
-        width: min-content;
-        margin: 5px;
-        height: fit-content;
+    .famers {
+        width: fit-content;
+    
     }
-
+    
     #hamburger {
         display: none;
     }

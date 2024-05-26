@@ -128,7 +128,7 @@ a, a:visited {
 
 .likes, .dislikes, .like-count h2 {
     flex: 1;
-    margin: 6px;
+    margin: 0;
 }
 
 .likes, .dislikes {
