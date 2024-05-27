@@ -100,21 +100,20 @@ a, a:visited {
 
 .colum {
     width: 90%;
-    border-style: solid;
-    margin: 0px;
+    margin: auto;
 }
 
 .post {
-    padding: 5px;
-    margin: auto;
     max-width: 100%;
-    width: fit-content;
+    width: 98%;
+    border-style: solid;
+    margin: 2px 2px;
 }
 
 .postImg {
-    margin: auto;
     max-width: 100%;
-
+    width: 100%;
+    margin: 0;
 }
 
 .more {
@@ -135,6 +134,7 @@ a, a:visited {
     flex: 1;
     margin: 0;
 }
+
 
 .likes, .dislikes {
     background-color: var(--chocolate);
@@ -193,18 +193,20 @@ a, a:visited {
         flex-wrap: wrap;
         width: 92%;
         margin: auto;
-  
     }
 
     .colum {
         flex:45%;
         max-width: 50%;
+        margin: 0px 2px;
+        margin-bottom: 2px;
+        height: fit-content;
     }
 
     .post {
-        width: min-content;
-        margin: 5px;
         height: fit-content;
+        margin-bottom: 5px;
+        border-style: solid;
     }
 
     #hamburger {
