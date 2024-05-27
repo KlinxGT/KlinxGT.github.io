@@ -98,18 +98,23 @@ a, a:visited {
     width: 30%;
 }
 
-.post {
+.colum {
+    width: 90%;
     border-style: solid;
-    padding: 5px;
-    margin: 5px auto;
-    width:min-content;
-
+    margin: 0px;
 }
 
-.post img {
-    display: block;
+.post {
+    padding: 5px;
     margin: auto;
-    border-style: double;
+    max-width: 100%;
+    width: fit-content;
+}
+
+.postImg {
+    margin: auto;
+    max-width: 100%;
+
 }
 
 .more {
@@ -178,11 +183,6 @@ a, a:visited {
         flex: 5;
     }
 
-     #images {
-        width: 98%;
-        margin: auto;
-    }
-
     #banner {
         width: 95%;
         margin: auto;
@@ -191,7 +191,14 @@ a, a:visited {
     #images {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        width: 92%;
+        margin: auto;
+  
+    }
+
+    .colum {
+        flex:45%;
+        max-width: 50%;
     }
 
     .post {
@@ -202,5 +209,11 @@ a, a:visited {
 
     #hamburger {
         display: none;
+    }
+}
+
+@media only screen and (min-width:950px) {
+    .colum {
+        flex:22%;
     }
 }

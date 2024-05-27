@@ -1,7 +1,7 @@
 [
     {
         "_id":"1",
-        "image":"images/abook",
+        "image":"images/abook.jpg",
         "caption":"Just read 1984 by George Orwell. God what a read; it quite literally blew my mind. Just the sheer depth of the story and the message behind it. I'm sure most people wouldn't understanding the subtleties to it but it really struck me to the core. Blah blah blah I'm so smart, look at me yall I read a book that's deep, I'm deep and wise and better than everyone. Please please please give me the validation and approval I never got from the friends I never had.",
         "like-count":"-400"
     },
@@ -37,7 +37,7 @@
     },
     {
         "_id":"7",
-        "image":"images/manbun.jps",
+        "image":"images/manbun.jpg",
         "caption":"Manbun, enough said",
         "like-count":"-00.00"
     },
@@ -49,9 +49,8 @@
     }, 
     {
         "_id":"9",
-        "image":"images/stones",
+        "image":"images/stones.jpg",
         "caption":"Pretty neat since it takes effor, but also why bother taking a pic of it aren't you supposed to be zen and self reflective, the opposite of social media?",
         "like-count":"4"
     }
-    
 ]
