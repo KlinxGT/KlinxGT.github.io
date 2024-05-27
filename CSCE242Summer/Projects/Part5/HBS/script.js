@@ -1,7 +1,7 @@
 document.getElementById("hamburger").onclick = () => {
     document.querySelector("#nav-bar ol").classList.toggle("hidden");
 }
-
+//Gets the stuff from the JSON
 const getPost = async() => {
     try {
         return((await fetch("https://klinxgt.github.io/CSCE242Summer/Projects/Part5/HBS/jason.json")).json());
@@ -10,7 +10,7 @@ const getPost = async() => {
         console.log(error);
     }
 }
-
+//Finds shortest colum
 const getColum = () => {
     const col1 = document.getElementById("col1");
     const col2 = document.getElementById("col2");
@@ -31,7 +31,7 @@ const getColum = () => {
 
     return theOne;
 }   
-
+//Loads the page with help from previous two methods
 const postPage = async() => {
     posts = await getPost();
     posts.forEach(async (post) => {
