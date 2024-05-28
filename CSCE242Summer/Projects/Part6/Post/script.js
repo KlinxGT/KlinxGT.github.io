@@ -6,10 +6,20 @@ const content = document.getElementById("content");
 const ul = document.createElement("ul");
 let count = 1;
 ul.id = "list";
-
-
 content.append(ul);
 
+const res = document.getElementById("result");
+res.style.textAlign = "center";
+const Result = () => {
+    res.textContent = "Success!";
+    setTimeout(()=>{
+        res.textContent = "";
+    }, 2000);
+
+}
+
+
+//Takes info from form and dsiplays them
 const list = (e) => {
     e.preventDefault();
     const sec = document.createElement("section");
@@ -37,6 +47,8 @@ const list = (e) => {
     sec.append(tags);
 
     ul.append(sec);
+
+    Result();
 }
 
 form.onsubmit = list;
