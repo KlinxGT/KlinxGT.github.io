@@ -14,6 +14,13 @@ body {
     background-color: var(--nav-color);
 }
 
+ul {
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 #logo {
     height: fit-content;
 }
@@ -36,7 +43,6 @@ body {
     height: 3px;
     margin: 10px;
     background-color: var(--nav-color);
-    
 }
 
 .hidden {
@@ -67,11 +73,11 @@ body {
     margin: auto;
 }
 
-#content {
+#form {
     height: fit-content;
 }
 
-#content h1 {
+#form h1 {
     text-align: center;
 }
 
@@ -102,15 +108,18 @@ body {
 #more {
     width: 90%;
     margin: 5px auto;
-    height: 32vh;
-    display: flex;
+    height: fit-content;
+    min-height: 32vh;
     background-color: #443325;
     color: var(--support-color) ;
+    padding-bottom: 5px;
+
 }
 
 #more section {
     flex:1;
     padding:5px;
+    margin: auto;
 }
 
 #more label {
@@ -128,10 +137,36 @@ body {
 }
 
 #caption {
-    height: 80%;
+    height: 80px;
     width: 80%;
     background-color: var(--support-color);
 }
+
+#description, #tags {
+    min-height: 50px;
+    height: 30%;
+}
+
+#more p {
+    text-align: center;
+}
+
+#list {
+    width:90%;
+    margin: auto;
+    border-style: solid;
+    height: fit-content;
+    background-color: var(--chocolate);
+}
+
+.post {
+    margin: 5px;
+    border-style:dotted;
+    color:var(--support-color);
+    flex:40%;
+}
+
+
 a, a:visited {
     text-decoration: none;
     color:black;
@@ -197,7 +232,19 @@ a, a:visited {
         max-width: 100%;
     }
     
+    #more {
+        display: flex;
+    }
+
+    #more p{
+        flex: 1;
+    }
     #hamburger {
         display: none;
     }
+
+    #caption {
+        height: 80%;
+    }
+  
 }

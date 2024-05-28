@@ -26,29 +26,32 @@
                 </ol>
             </nav>
         </header>
-        <form id = "content">
-            <h1>Post!</h1>
-            <section id = "img">
-                <input type = "file" id = "pic" accept="image/png, image/jpeg"/>
-                <img src = "">
-            </section>
-            <section id = "more">
-                <section>
-                    <label for = "caption">Caption</label>
-                    <textarea type = "text" id = "caption"></textarea>
+        
+        <div id = "content">
+            <form id = "form">
+                <h1>Post!</h1>
+                <section id = "img">
+                    <input type = "file" id = "pic" accept="image/png, image/jpeg"/>
+                    <img src = "">
                 </section>
-                <section>
-                    <label for = "description">Extra Info</label>
-                    <textarea type = "text" id = "description"></textarea>
-                    <label for = "tags">Tags</label>
-                    <textarea type = "text" id = "tags"></textarea>
+                <section id = "more">
+                    <p>
+                        <label for = "caption">Caption</label>
+                        <textarea type = "text" id = "caption" required></textarea>
+                    </p>
+                    <p>
+                        <label for = "description">Extra Info</label>
+                        <textarea type = "text" id = "description" required></textarea>
+                        <label for = "tags">Tags</label>
+                        <textarea type = "text" id = "tags" required></textarea>
+                    </p>
                 </section>
-            </section>
-            <button id = "poster" type = "submit">Post</button>
-        </form>
-        <footer>
-            
-        </footer>
+                <button id = "poster" type = "submit">Post</button>
+            </form>
+            <ul>
+                
+            </ul>
+        </div>
         <script src = "script.js"></script>
     </body>
 </html>
