@@ -26,25 +26,26 @@
                 </ol>
             </nav>
         </header>
-        <div id = "content">
+        <form id = "content">
             <h1>Post!</h1>
             <section id = "img">
-               <img src = "images/avocado.jpg">
+                <input type = "file" id = "pic" accept="image/png, image/jpeg"/>
+                <img src = "">
             </section>
             <section id = "more">
                 <section>
                     <label for = "caption">Caption</label>
-                    <input type = "text" id = "caption">
+                    <textarea type = "text" id = "caption"></textarea>
                 </section>
                 <section>
                     <label for = "description">Extra Info</label>
-                    <input type = "text" id = "description">
+                    <textarea type = "text" id = "description"></textarea>
                     <label for = "tags">Tags</label>
-                    <input type = "text" id = "tags">
+                    <textarea type = "text" id = "tags"></textarea>
                 </section>
             </section>
-            <button id = "poster">Post</button>
-        </div>
+            <button id = "poster" type = "submit">Post</button>
+        </form>
         <footer>
             
         </footer>

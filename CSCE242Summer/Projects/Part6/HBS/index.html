@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Home</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -27,27 +27,29 @@
             </nav>
         </header>
         <div id = "content">
-            <h1>Post!</h1>
-            <section id = "img">
-               <img src = "images/avocado.jpg">
+            <section id = "banner">
+                <h1>Home</h1>
+                <label id = "labSearch" for = "search">Search:</label>
+                <input id = "search" type = "text">
             </section>
-            <section id = "more">
-                <section>
-                    <label for = "caption">Caption</label>
-                    <input type = "text" id = "caption">
+            <!--Galery of images-->
+            <section id = "images">
+                <!--posts have a pic, captions, like and dislikes. Eventually I'll add javascript to click the images and have it enlarge
+                and show description and categories-->
+                <section id = "col1" class = "colum">
+
                 </section>
-                <section>
-                    <label for = "description">Extra Info</label>
-                    <input type = "text" id = "description">
-                    <label for = "tags">Tags</label>
-                    <input type = "text" id = "tags">
+                <section id = "col2" class = "colum">
+
                 </section>
-            </section>
-            <button id = "poster">Post</button>
+                <section id = "col3" class = "colum">
+
+                </section>
+                <section id = "col0" class = "colum">
+
+                </section>
+            </section> <!--End of Images Gallery-->
         </div>
-        <footer>
-            
-        </footer>
         <script src = "script.js"></script>
     </body>
 </html>
