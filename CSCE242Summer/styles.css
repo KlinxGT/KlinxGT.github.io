@@ -46,11 +46,12 @@ li {
     padding-left:0;
 }
 
-#proj-block a, #block li{
+#proj-block a, #block li, #lazy-fix{
     margin: auto;
     min-width:min-content;
     width:33%;
 }
+
 
 .pcell , .cell{
     text-align: center;
@@ -97,7 +98,7 @@ a:visited, a:hover {
     }
 
     .pcell {
-        height:300px;   
+        height:320px;   
     }
 
     #block li {
