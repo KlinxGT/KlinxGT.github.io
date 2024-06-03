@@ -33,7 +33,7 @@ const getColum = () => {
 }   
 //Loads the page with help from previous two methods
 const postPage = async() => {
-    posts = await getPost();
+    const posts = await getPost();
     posts.forEach(async (post) => {
         const sec = document.createElement("section");
         sec.classList.add("post");
