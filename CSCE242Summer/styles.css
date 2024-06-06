@@ -46,7 +46,7 @@ li {
     padding-left:0;
 }
 
-#proj-block a, #block li, #lazy-fix{
+#proj-block a, #block li, .lazy-fix{
     margin: auto;
     min-width:min-content;
     width:33%;
